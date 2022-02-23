@@ -116,6 +116,7 @@ public class WordleCore{
         if(ans[i]==prob[j]){
           aexist[i]=1;
           pexist[j]=1;
+          break;
         }
       }
     }
